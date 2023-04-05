@@ -8,9 +8,9 @@ public class HelloWorld
         Queue queue2 = Queue.getInstance();
         
             if (queue1 == queue2)
-                Console.WriteLine("Singleton works, both variables contain the same instance.");
+                Console.WriteLine("Singleton works!");
             else
-                Console.WriteLine("Singleton failed, variables contain different instances.");
+                Console.WriteLine("Singleton failed!");
             
     }
 }
