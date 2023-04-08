@@ -10,8 +10,7 @@ public class HelloWorld
             if (queue1 == queue2)
                 Console.WriteLine("Singleton works!");
             else
-                Console.WriteLine("Singleton failed!");
-            
+                Console.WriteLine("Singleton failed!");   
     }
 }
 
